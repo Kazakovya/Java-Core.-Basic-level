@@ -7,11 +7,11 @@ public class Six {
 
     public static void main(String[] args) {
 
-        negOrPos(-1);
+        System.out.println(negOrPos(1));
     }
 
-    public static void negOrPos(int a) {
-        System.out.println(a < 0);
+    public static boolean negOrPos(int a) {
+        return (a < 0);
 
     }
 }

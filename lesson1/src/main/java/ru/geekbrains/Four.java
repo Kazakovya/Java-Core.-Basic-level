@@ -7,10 +7,10 @@ public class Four {
 
     public static void main(String[] args) {
 
-        sum(10, 16);
+        System.out.println(sum(10, 6));
     }
 
-    public static void sum(int a, int b) {
-        System.out.println((a + b) >= 10 && (a + b) <= 20);
+    public static boolean sum(int a, int b) {
+        return (a + b) >= 10 && (a + b) <= 20;
     }
 }

@@ -6,11 +6,11 @@ public class Three {
     //где a, b, c, d – аргументы этого метода, имеющие тип float
     public static void main(String[] args) {
 
-        calc(3F, 3F, 6F, 4F);
+        System.out.println(calc(3.5F, 3F, 6F, 4F));
     }
 
-    public static void calc(float a, float b, float c, float d) {
+    public static float calc(float a, float b, float c, float d) {
 
-        System.out.println(a * (b + (c / d)));
+        return (a * (b + (c / d)));
     }
 }
